@@ -35,10 +35,10 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
-                                      <entry key="backgroundLayerName" value="cog_wheel_back" />
-                                      <entry key="foregroundImage" value="C:\Users\apio9009\Documents\DoodleMe\Icons\CogWheelV3.png" />
-                                      <entry key="foregroundLayerName" value="cog_wheel_front" />
-                                      <entry key="outputName" value="cog_wheel" />
+                                      <entry key="backgroundLayerName" value="eraser_co_back" />
+                                      <entry key="foregroundImage" value="C:\Users\apio9009\Documents\DoodleMe\Icons\EraserIco.png" />
+                                      <entry key="foregroundLayerName" value="eraser_co_front" />
+                                      <entry key="outputName" value="eraser_co" />
                                     </map>
                                   </option>
                                 </PersistentState>

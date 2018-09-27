@@ -1,10 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0099cc"
+    android:background="#ffffff"
     tools:context=".Drawing">
 
 
-</FrameLayout>
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/black_co" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageButton2"
+        android:src="@mipmap/brown_co" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageButton6"
+        android:src="@mipmap/blue_co" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageButton7"
+        android:src="@mipmap/empty_co" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageButton8"
+        android:src="@mipmap/green_co" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageButton9"
+        android:src="@mipmap/grey_co" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageButton10"
+        android:src="@mipmap/orange_co" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageButton11"
+        android:src="@mipmap/purple_co" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageButton12"
+        android:src="@mipmap/red_co" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:src="@mipmap/yellow_co" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@mipmap/pencil_co" />
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageButton15"
+        android:src="@mipmap/eraser_co" />
+
+</RelativeLayout>
